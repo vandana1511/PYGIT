@@ -10,3 +10,4 @@ def hello(name='Jose'):
     print(greet())
     print(welcome())
     print("Now we are back inside the hello() function")
+hello()
