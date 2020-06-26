@@ -1,5 +1,4 @@
 def hello(name='Jose'):
-    print('The hello() function has been executed')
     
     def greet():
         return '\t This is inside the greet() function'
@@ -7,7 +6,7 @@ def hello(name='Jose'):
     def welcome():
         return "\t This is inside the welcome() function"
     
-    print(greet())
-    print(welcome())
-    print("Now we are back inside the hello() function")
-hello()
+    if name == 'Jose':
+        return greet
+    else:
+        return welcome
