@@ -11,7 +11,7 @@ def new_decorator(func):
 
 def func_needs_decorator():
     print("This function is in need of a Decorator")
-<<<<<<< HEAD
+
 
 
 # Reassign func_needs_decorator
@@ -24,6 +24,3 @@ func_needs_decorator()
 def func_needs_decorator():
     print("This function is in need of a Decorator")
 func_needs_decorator()
-=======
-func_needs_decorator()
->>>>>>> origin/master
